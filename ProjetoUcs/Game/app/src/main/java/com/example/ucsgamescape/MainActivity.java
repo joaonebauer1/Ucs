@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    // CHAMA A MAIN ACTIVITY
+    // CHAMA A MAIN ACTIVITY.
     public void MainActivity(View view) {
         Intent mainActivity = new Intent(this, MainActivity.class);
         startActivity(mainActivity);
