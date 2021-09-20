@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".NiveisActivity">
+
+    <LinearLayout
+        android:id="@+id/niveis1"
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/niveis3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textoLayout">
+        <!--   Botão easy   -->
+        <Button
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_700"
+            android:onClick="EasyActivity"
+            android:text="EASY"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText,InefficientWeight,MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/niveis2"
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoLayout">
+        <!--   Botão medium   -->
+        <Button
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_weight="2"
+            android:backgroundTint="?attr/colorSecondary"
+            android:onClick="MediumActivity"
+            android:text="MEDIUM"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText,InefficientWeight,MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/niveis3"
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/voltarLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/niveis2">
+        <!--   Botão hard   -->
+        <Button
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:backgroundTint="@color/red"
+            android:onClick="HardActivity"
+            android:text="HARD"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText,InefficientWeight,MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textoLayout"
+        android:layout_width="286dp"
+        android:layout_height="99dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:text="NÍVEL DE JOGO"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+        <Button
+            android:id="@+id/escolha"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:backgroundTint="@color/material_on_surface_stroke"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            tools:ignore="SpUsage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/voltarLayout"
+        android:layout_width="111dp"
+        android:layout_height="69dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/voltar"
+            android:layout_width="106dp"
+            android:layout_height="62dp"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            android:onClick="photoUserActivity"
+            android:text="VOLTAR"
+            android:textSize="14dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            tools:ignore="HardcodedText,MissingConstraints,OnClick,SpUsage"
+            tools:layout_editor_absoluteY="624dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

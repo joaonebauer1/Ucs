@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ucsgamescape"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml
+10
+11    <!-- -    PERMISSÕES -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:7:5-64
+12-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:8:5-65
+13-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:8:22-63
+14
+15    <!-- ******************* -->
+16    <application
+16-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:11:5-58:19
+17        android:allowBackup="true"
+17-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:12:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\jjsha\.gradle\caches\transforms-3\109c406f854d135ad1ed87dae876b357\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.UcsGameScape" >
+26-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:17:9-50
+27
+28        <!-- <activity -->
+29        <!-- android:name=".Class_LevelEasy" -->
+30        <!-- android:exported="true" -->
+31        <!-- tools:ignore="Instantiatable" /> -->
+32        <!-- <activity -->
+33        <!-- android:name=".Class_LevelHard" -->
+34        <!-- android:exported="true" -->
+35        <!-- tools:ignore="Instantiatable" /> -->
+36        <!-- <activity -->
+37        <!-- android:name=".Class_LevelMedium" -->
+38        <!-- android:exported="true" -->
+39        <!-- tools:ignore="Instantiatable" /> -->
+40        <activity
+40-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:31:9-33:39
+41            android:name="com.example.ucsgamescape.HardActivity"
+41-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:32:13-41
+42            android:exported="true" />
+42-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:33:13-36
+43        <activity
+43-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:34:9-36:39
+44            android:name="com.example.ucsgamescape.MediumActivity"
+44-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:35:13-43
+45            android:exported="true" />
+45-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:36:13-36
+46        <activity
+46-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:37:9-39:39
+47            android:name="com.example.ucsgamescape.EasyActivity"
+47-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:38:13-41
+48            android:exported="true" />
+48-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:39:13-36
+49        <activity
+49-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:40:9-42:39
+50            android:name="com.example.ucsgamescape.NiveisActivity"
+50-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:41:13-43
+51            android:exported="true" />
+51-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:42:13-36
+52        <activity
+52-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:43:9-45:39
+53            android:name="com.example.ucsgamescape.photoUserActivity"
+53-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:44:13-46
+54            android:exported="true" />
+54-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:45:13-36
+55        <activity
+55-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:46:9-48:38
+56            android:name="com.example.ucsgamescape.MainActivity"
+56-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:47:13-41
+57            android:exported="true" />
+57-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:48:13-36
+58        <activity
+58-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:49:9-57:20
+59            android:name="com.example.ucsgamescape.SplashActivity"
+59-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:50:13-43
+60            android:exported="true" >
+60-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:51:13-36
+61            <intent-filter>
+61-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:52:13-56:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:53:17-69
+62-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:53:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:55:17-77
+64-->C:\Ucs\ProjetoUcs\Game\app\src\main\AndroidManifest.xml:55:27-74
+65            </intent-filter>
+66        </activity>
+67    </application>
+68
+69</manifest>

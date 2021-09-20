@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ucs/ProjetoUcs/Game/app/src/main/res/layout/activity_easy.xml" value="0.1" />
+        <entry key="..\:/Ucs/ProjetoUcs/Game/app/src/main/res/layout/activity_hard.xml" value="0.1" />
+        <entry key="..\:/Ucs/ProjetoUcs/Game/app/src/main/res/layout/activity_medium.xml" value="0.1" />
+        <entry key="..\:/Ucs/ProjetoUcs/Game/app/src/main/res/layout/activity_niveis.xml" value="0.2" />
+        <entry key="..\:/Users/Luan Reinheimer/Desktop/Estudos/UCS/Projeto Maze UCS/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Luan Reinheimer/Desktop/Estudos/UCS/Projeto Maze UCS/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/drawable-v24/splash_fundo.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Luan Reinheimer/Desktop/Estudos/UCS/Projeto Maze UCS/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Luan Reinheimer/Desktop/Estudos/UCS/Projeto Maze UCS/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_level_easy.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/Luan Reinheimer/Desktop/Estudos/UCS/Projeto Maze UCS/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_level_hard.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/Luan Reinheimer/Desktop/Estudos/UCS/Projeto Maze UCS/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_level_medium.xml" value="0.2753623188405797" />
+        <entry key="..\:/Users/Luan Reinheimer/Desktop/Estudos/UCS/Projeto Maze UCS/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_main.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/Luan Reinheimer/Desktop/Estudos/UCS/Projeto Maze UCS/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_photo_user.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/Luan Reinheimer/Desktop/Estudos/UCS/Projeto Maze UCS/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_teste.xml" value="0.29483695652173914" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_easy.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape/app/src/main/res/drawable-v24/splash_fundo.xml" value="0.2203125" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape/app/src/main/res/layout/activity_level_easy.xml" value="0.25" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape/app/src/main/res/layout/activity_level_hard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape/app/src/main/res/layout/activity_level_medium.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape/app/src/main/res/layout/activity_levels_game.xml" value="0.17" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape/app/src/main/res/layout/activity_photo_user.xml" value="0.18" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape/app/src/main/res/layout/levels_game.xml" value="0.1" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsGameScape/app/src/main/res/layout/photo_user.xml" value="0.18" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsScapeGame/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/drawable-v24/splash_fundo.xml" value="0.2203125" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsScapeGame/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_level_easy.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsScapeGame/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_level_hard.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsScapeGame/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_level_medium.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsScapeGame/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_levels_game.xml" value="0.18" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsScapeGame/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsScapeGame/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_photo_user.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsScapeGame/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_splash.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/jjsha/AndroidStudioProjects/UcsScapeGame/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_teste.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/jjsha/ProjetoUcs-Jogo/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_easy.xml" value="0.25" />
+        <entry key="..\:/Users/jjsha/ProjetoUcs-Jogo/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_hard.xml" value="0.15" />
+        <entry key="..\:/Users/jjsha/ProjetoUcs-Jogo/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_level_hard.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/jjsha/ProjetoUcs-Jogo/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_levels_game.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/jjsha/ProjetoUcs-Jogo/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/jjsha/ProjetoUcs-Jogo/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_medium.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/jjsha/ProjetoUcs-Jogo/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_niveis.xml" value="0.22" />
+        <entry key="..\:/Users/jjsha/ProjetoUcs-Jogo/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_photo_user.xml" value="0.25" />
+        <entry key="..\:/Users/jjsha/ProjetoUcs-Jogo/UcsGameScape-main/UcsGameScape-main-atual/UcsGameScape-main/app/src/main/res/layout/activity_splash.xml" value="0.16576086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
