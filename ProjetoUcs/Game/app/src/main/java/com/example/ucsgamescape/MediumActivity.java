@@ -9,29 +9,13 @@ import android.view.View;
 
 public class MediumActivity extends AppCompatActivity {
 
-    private MediaPlayer mMediaplayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medium);
-        mMediaplayer = MediaPlayer.create(this, R.raw.sound);
-        mMediaplayer.start();
-
     }
 
-    private void releaseMediaPlayer(){
-        if (mMediaplayer != null){
-            mMediaplayer.release();
-            mMediaplayer = null;
-        }
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        releaseMediaPlayer();
-    }
 
     // voltar
     public void NiveisActivity(View view) {

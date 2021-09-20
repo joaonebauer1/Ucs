@@ -9,6 +9,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
@@ -19,6 +20,8 @@ import java.io.ByteArrayOutputStream;
 
 public class photoUserActivity extends AppCompatActivity {
 
+    private MediaPlayer mMediaplayer;
+
     private static final int REQUEST_IMAGE_CAPTURE = 100;
     ImageView imageView;
     Button btOpen;
@@ -27,6 +30,8 @@ public class photoUserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_photo_user);
+        mMediaplayer = MediaPlayer.create(this, R.raw.sound);
+        mMediaplayer.start();
 
         imageView = findViewById(R.id.layoutImagem);
         btOpen = findViewById(R.id.bt_open);
@@ -58,11 +63,18 @@ public class photoUserActivity extends AppCompatActivity {
         }
     }
 
-//    // tira foto do jogador
-//    public void Class_LevelEasy(View view) {
-//        Intent Class_LevelEasy = new Intent(this,Class_LevelEasy.class);
-//        startActivity(Class_LevelEasy);
-//    }
+    private void releaseMediaPlayer(){
+        if (mMediaplayer != null){
+            mMediaplayer.release();
+            mMediaplayer = null;
+        }
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        releaseMediaPlayer();
+    }
 
     // AVANÇA PARA NÍVEIS DE JOGO
     public void NiveisActivity(View view) {

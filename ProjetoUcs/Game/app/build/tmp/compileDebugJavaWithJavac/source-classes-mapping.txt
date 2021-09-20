@@ -1,34 +1,34 @@
-com/example/ucsgamescape/MediumActivity.java
- com.example.ucsgamescape.MediumActivity
-com/example/ucsgamescape/HardActivity.java
- com.example.ucsgamescape.HardActivity
+com/example/ucsgamescape/MainActivity.java
+ com.example.ucsgamescape.MainActivity
+com/example/ucsgamescape/EasyActivity.java
+ com.example.ucsgamescape.EasyActivity
 com/example/ucsgamescape/BuildConfig.java
  com.example.ucsgamescape.BuildConfig
-com/example/ucsgamescape/Class_LevelMedium.java
- com.example.ucsgamescape.Class_LevelMedium
- com.example.ucsgamescape.Class_LevelMedium$1
- com.example.ucsgamescape.Class_LevelMedium$Cell
- com.example.ucsgamescape.Class_LevelMedium$Direction
+com/example/ucsgamescape/photoUserActivity.java
+ com.example.ucsgamescape.photoUserActivity
+ com.example.ucsgamescape.photoUserActivity$1
+com/example/ucsgamescape/HardActivity.java
+ com.example.ucsgamescape.HardActivity
 com/example/ucsgamescape/Class_LevelEasy.java
  com.example.ucsgamescape.Class_LevelEasy
  com.example.ucsgamescape.Class_LevelEasy$1
  com.example.ucsgamescape.Class_LevelEasy$Cell
  com.example.ucsgamescape.Class_LevelEasy$Direction
+com/example/ucsgamescape/SplashActivity.java
+ com.example.ucsgamescape.SplashActivity
+ com.example.ucsgamescape.SplashActivity$1
+com/example/ucsgamescape/MediumActivity.java
+ com.example.ucsgamescape.MediumActivity
+com/example/ucsgamescape/NiveisActivity.java
+ com.example.ucsgamescape.NiveisActivity
+ com.example.ucsgamescape.NiveisActivity$1
+com/example/ucsgamescape/Class_LevelMedium.java
+ com.example.ucsgamescape.Class_LevelMedium
+ com.example.ucsgamescape.Class_LevelMedium$1
+ com.example.ucsgamescape.Class_LevelMedium$Cell
+ com.example.ucsgamescape.Class_LevelMedium$Direction
 com/example/ucsgamescape/Class_LevelHard.java
  com.example.ucsgamescape.Class_LevelHard
  com.example.ucsgamescape.Class_LevelHard$1
  com.example.ucsgamescape.Class_LevelHard$Cell
  com.example.ucsgamescape.Class_LevelHard$Direction
-com/example/ucsgamescape/EasyActivity.java
- com.example.ucsgamescape.EasyActivity
-com/example/ucsgamescape/SplashActivity.java
- com.example.ucsgamescape.SplashActivity
- com.example.ucsgamescape.SplashActivity$1
-com/example/ucsgamescape/photoUserActivity.java
- com.example.ucsgamescape.photoUserActivity
- com.example.ucsgamescape.photoUserActivity$1
-com/example/ucsgamescape/NiveisActivity.java
- com.example.ucsgamescape.NiveisActivity
- com.example.ucsgamescape.NiveisActivity$1
-com/example/ucsgamescape/MainActivity.java
- com.example.ucsgamescape.MainActivity

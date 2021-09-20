@@ -83,6 +83,9 @@ public class Class_LevelHard extends View implements MediaPlayer.OnCompletionLis
             } else
                 current = stack.pop();
         } while (!stack.empty());
+
+        playSound("START");
+
     }
 
     private Cell getNeighbour(Cell current) {
@@ -275,6 +278,9 @@ public class Class_LevelHard extends View implements MediaPlayer.OnCompletionLis
         int resId;
 
         switch (type) {
+            case "START":
+                resId = R.raw.letsgo;
+                break;
             case "EXIT":
                 resId = R.raw.win;
                 boolean allowMovement = false;
@@ -297,6 +303,7 @@ public class Class_LevelHard extends View implements MediaPlayer.OnCompletionLis
             ROWS++;
 
             playSound("EXIT");
+
             createMaze();
         }
     }

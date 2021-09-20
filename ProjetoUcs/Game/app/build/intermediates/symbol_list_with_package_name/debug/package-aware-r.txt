@@ -2480,6 +2480,7 @@ layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw letsgo
 raw sound
 raw win
 string abc_action_bar_home_description

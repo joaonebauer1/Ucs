@@ -1,4 +1,4 @@
-#Mon Sep 20 14:11:52 BRT 2021
+#Mon Sep 20 15:11:46 BRT 2021
 base.2=C\:\\Ucs\\ProjetoUcs\\Game\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 path.2=13/classes.dex
 base.1=C\:\\Ucs\\ProjetoUcs\\Game\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

@@ -16,12 +16,12 @@
         "source": "C:\\Ucs\\ProjetoUcs\\Game\\app\\src\\main\\res\\layout\\activity_photo_user.xml"
     },
     {
-        "merged": "C:\\Ucs\\ProjetoUcs\\Game\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Ucs\\ProjetoUcs\\Game\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Ucs\\ProjetoUcs\\Game\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
         "source": "C:\\Ucs\\ProjetoUcs\\Game\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Ucs\\ProjetoUcs\\Game\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Ucs\\ProjetoUcs\\Game\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Ucs\\ProjetoUcs\\Game\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -74,6 +74,10 @@
     {
         "merged": "C:\\Ucs\\ProjetoUcs\\Game\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Ucs\\ProjetoUcs\\Game\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Ucs\\ProjetoUcs\\Game\\app\\build\\intermediates\\merged_res\\debug\\raw_letsgo.mp3.flat",
+        "source": "C:\\Ucs\\ProjetoUcs\\Game\\app\\src\\main\\res\\raw\\letsgo.mp3"
     },
     {
         "merged": "C:\\Ucs\\ProjetoUcs\\Game\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",

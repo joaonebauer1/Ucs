@@ -9,28 +9,11 @@ import android.view.View;
 
 public class EasyActivity extends AppCompatActivity {
 
-    private MediaPlayer mMediaplayer;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_easy);
-        mMediaplayer = MediaPlayer.create(this, R.raw.sound);
-        mMediaplayer.start();
 
-    }
-
-    private void releaseMediaPlayer(){
-        if (mMediaplayer != null){
-            mMediaplayer.release();
-            mMediaplayer = null;
-        }
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        releaseMediaPlayer();
     }
 
     // voltar
