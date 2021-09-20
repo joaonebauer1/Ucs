@@ -19,11 +19,43 @@ import java.io.ByteArrayOutputStream;
 
 public class photoUserActivity extends AppCompatActivity {
 
+    private static final int REQUEST_IMAGE_CAPTURE = 100;
+    ImageView imageView;
+    Button btOpen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_photo_user);
+
+        imageView = findViewById(R.id.layoutImagem);
+        btOpen = findViewById(R.id.bt_open);
+
+        if (ContextCompat.checkSelfPermission(photoUserActivity.this,
+                Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(photoUserActivity.this,
+                    new String[]{
+                            Manifest.permission.CAMERA
+                    },
+                    100);
+        }
+        btOpen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivityForResult(intent, 100);
+
+            }
+        });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 100) {
+            Bitmap captureImage = (Bitmap) data.getExtras().get("data");
+            imageView.setImageBitmap(captureImage);
+        }
     }
 
 //    // tira foto do jogador
